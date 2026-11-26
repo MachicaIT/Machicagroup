@@ -56,28 +56,26 @@ useEffect(() => {
         };
     }, []);
 
-    // MOBILE MENU
-    const toggleMenu = () => {
-        setMenuOpen((prev) => !prev);
-        setActiveDropdown(null);
-    };
+    
+// MOBILE MENU
+const toggleMenu = () => {
+    setMenuOpen((prev) => !prev);
+    setActiveDropdown(null);
+};
 
-    // MOBILE DROPDOWNS
-    const toggleDropdown = (name, event) => {
-        if (window.innerWidth <= 768) {
-            event.preventDefault();
+// MOBILE DROPDOWNS
+const toggleDropdown = (name) => {
+    setActiveDropdown((prev) =>
+        prev === name ? null : name
+    );
+};
 
-            setActiveDropdown((prev) =>
-                prev === name ? null : name
-            );
-        }
-    };
+// CLOSE MENU
+const closeMenu = () => {
+    setMenuOpen(false);
+    setActiveDropdown(null);
+};
 
-    // CLOSE MENU AFTER NAVIGATION
-    const closeMenu = () => {
-        setMenuOpen(false);
-        setActiveDropdown(null);
-    };
 
     return (
         <>
