@@ -44,8 +44,8 @@ const ContactUs = () => {
                         </span>
 
                         <h2>
-                            Visit Our
-                            <span>Offices</span>
+                            Visit Our 
+                            <span> Offices</span>
                         </h2>
 
                         <p>
@@ -870,8 +870,8 @@ const ContactUs = () => {
                     </span>
 
                     <h2>
-                        We're ready to
-                        <strong>hear from you.</strong>
+                        We're ready to 
+                        <strong> hear from you.</strong>
                     </h2>
 
                     <a

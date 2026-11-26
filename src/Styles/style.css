@@ -4226,14 +4226,18 @@ img {
 /* =========================================================
    CONTACT US PAGE
 ========================================================= */
-
 .parent-hero {
+
     position: relative;
+
     min-height: 430px;
+
     width: 100%;
 
     display: flex;
+
     align-items: center;
+
     justify-content: center;
 
     overflow: hidden;
@@ -4241,38 +4245,49 @@ img {
     background: #f5f5f5;
 
     color: black;
+
 }
 
 .parent-hero::before {
+
     content: "";
 
     position: absolute;
+
     inset: 0;
 
     background-image: url("../hero/contact.jpg");
+
     background-size: cover;
+
     background-position: center;
+
     background-repeat: no-repeat;
 
     opacity: 0.20;
 
     z-index: 0;
+
 }
 
 .parent-hero-content {
-    position: relative;
-    z-index: 2;
-    width: 90%;
-    max-width: 1000px;
-    text-align: center;
-}
 
-.parent-hero-content p{
-    font-size: 25px;
+    position: relative;
+
+    z-index: 2;
+
+    width: 90%;
+
+    max-width: 1000px;
+
+    text-align: center;
+
 }
 
 /* Small title */
+
 .parent-hero-label {
+
     display: block;
 
     margin-bottom: 18px;
@@ -4284,11 +4299,13 @@ img {
     font-weight: 700;
 
     letter-spacing: 4px;
+
 }
 
-
 /* Main heading */
+
 .parent-hero h1 {
+
     margin: 0;
 
     font-size: clamp(50px, 7vw, 85px);
@@ -4300,17 +4317,21 @@ img {
     letter-spacing: -3px;
 
     color: black;
-}
 
+}
 
 /* Red "Us" */
+
 .parent-hero h1 span {
+
     color: #ed1c24;
+
 }
 
-
 /* Description */
+
 .parent-hero p {
+
     max-width: 650px;
 
     margin: 25px auto 0;
@@ -4320,40 +4341,49 @@ img {
     font-size: 17px;
 
     line-height: 1.7;
+
 }
 
 /* =========================================================
+
    MAIN SECTION
-========================================================= */
+
+\========================================================= */
 
 .contact-section {
+
     padding: 100px 20px;
 
     background: #f5f6f8;
+
 }
 
-
 .contact-wrapper {
+
     width: 100%;
 
     max-width: 1200px;
 
     margin: auto;
+
 }
 
-
 /* =========================================================
+
    HEADING
-========================================================= */
+
+\========================================================= */
 
 .contact-heading {
+
     max-width: 750px;
 
     margin-bottom: 50px;
+
 }
 
-
 .contact-section-label {
+
     display: block;
 
     margin-bottom: 15px;
@@ -4365,10 +4395,11 @@ img {
     font-weight: 800;
 
     letter-spacing: 3px;
+
 }
 
-
 .contact-heading h2 {
+
     margin: 0;
 
     color: #171717;
@@ -4378,15 +4409,17 @@ img {
     line-height: 1.1;
 
     font-weight: 800;
-}
 
+}
 
 .contact-heading h2 span {
+
     color: #ed1c24;
+
 }
 
-
 .contact-heading p {
+
     max-width: 700px;
 
     margin-top: 20px;
@@ -4396,14 +4429,17 @@ img {
     font-size: 16px;
 
     line-height: 1.8;
+
 }
 
-
 /* =========================================================
+
    OFFICE CONTAINER
-========================================================= */
+
+\========================================================= */
 
 .office-container {
+
     padding: 45px;
 
     background: #ffffff;
@@ -4413,15 +4449,19 @@ img {
     border-radius: 24px;
 
     box-shadow:
+
         0 20px 60px rgba(0,0,0,0.08);
+
 }
 
-
 /* =========================================================
+
    OFFICE HEADER
-========================================================= */
+
+\========================================================= */
 
 .office-header {
+
     display: flex;
 
     align-items: center;
@@ -4433,10 +4473,11 @@ img {
     margin-bottom: 30px;
 
     border-bottom: 1px solid #eeeeee;
+
 }
 
-
 .office-label {
+
     display: block;
 
     color: #999;
@@ -4446,19 +4487,21 @@ img {
     font-weight: 800;
 
     letter-spacing: 3px;
+
 }
 
-
 .office-header h3 {
+
     margin: 7px 0 0;
 
     color: #222;
 
     font-size: 32px;
+
 }
 
-
 .office-number {
+
     display: flex;
 
     align-items: center;
@@ -4466,6 +4509,7 @@ img {
     justify-content: center;
 
     width: 60px;
+
     height: 60px;
 
     border-radius: 50%;
@@ -4477,27 +4521,33 @@ img {
     font-size: 16px;
 
     font-weight: 800;
+
 }
 
-
 /* =========================================================
+
    CONTACT GRID
-========================================================= */
+
+\========================================================= */
 
 .contact-grid {
+
     display: grid;
 
     grid-template-columns: repeat(2, 1fr);
 
     gap: 20px;
+
 }
 
-
 /* =========================================================
+
    CONTACT CARD
-========================================================= */
+
+\========================================================= */
 
 .contact-card {
+
     display: flex;
 
     gap: 20px;
@@ -4511,30 +4561,39 @@ img {
     border-radius: 18px;
 
     transition:
+
         transform 0.3s ease,
+
         box-shadow 0.3s ease,
+
         background 0.3s ease;
+
 }
 
-
 .contact-card:hover {
+
     transform: translateY(-5px);
 
     background: white;
 
     box-shadow:
+
         0 15px 35px rgba(0,0,0,0.08);
+
 }
 
-
 /* =========================================================
+
    ICON
-========================================================= */
+
+\========================================================= */
 
 .contact-card-icon {
+
     flex-shrink: 0;
 
     width: 52px;
+
     height: 52px;
 
     display: flex;
@@ -4550,14 +4609,17 @@ img {
     color: white;
 
     font-size: 18px;
+
 }
 
-
 /* =========================================================
+
    CARD TEXT
-========================================================= */
+
+\========================================================= */
 
 .contact-card-label {
+
     display: block;
 
     margin-bottom: 6px;
@@ -4569,19 +4631,21 @@ img {
     font-weight: 800;
 
     letter-spacing: 2px;
+
 }
 
-
 .contact-card h4 {
+
     margin: 0 0 12px;
 
     color: #222;
 
     font-size: 20px;
+
 }
 
-
 .contact-card p {
+
     margin: 8px 0;
 
     color: #666;
@@ -4589,42 +4653,49 @@ img {
     font-size: 14px;
 
     line-height: 1.7;
-}
 
+}
 
 .contact-card strong {
+
     color: #333;
+
 }
 
-
 .contact-card a {
+
     color: #555;
 
     text-decoration: none;
 
     transition: color 0.3s ease;
-}
 
+}
 
 .contact-card a:hover {
+
     color: #ed1c24;
+
 }
 
-
 /* =========================================================
+
    OFFICE HOURS
-========================================================= */
+
+\========================================================= */
 
 .hours-list {
+
     display: flex;
 
     flex-direction: column;
 
     gap: 12px;
+
 }
 
-
 .hours-list div {
+
     display: flex;
 
     justify-content: space-between;
@@ -4634,48 +4705,57 @@ img {
     padding-bottom: 10px;
 
     border-bottom: 1px dashed #ddd;
-}
 
+}
 
 .hours-list div:last-child {
-    border-bottom: none;
-}
 
+    border-bottom: none;
+
+}
 
 .hours-list strong {
+
     font-size: 11px;
+
 }
 
-
 .hours-list span {
+
     color: #777;
 
     font-size: 12px;
 
     text-align: right;
+
 }
 
-
 /* =========================================================
+
    SOCIAL
-========================================================= */
+
+\========================================================= */
 
 .contact-social {
+
     display: flex;
 
     gap: 10px;
 
     margin-top: 18px;
+
 }
 
-
 .contact-social a {
+
     width: 42px;
+
     height: 42px;
 
     display: flex;
 
     align-items: center;
+
     justify-content: center;
 
     border-radius: 10px;
@@ -4685,28 +4765,35 @@ img {
     color: white !important;
 
     transition:
+
         transform 0.3s ease,
+
         background 0.3s ease;
+
 }
 
-
 .contact-social a:hover {
+
     background: #ed1c24;
 
     transform: translateY(-4px);
-}
 
+}
 
 /* =========================================================
+
    MAP
-========================================================= */
+
+\========================================================= */
 
 .contact-map-section {
+
     margin-top: 35px;
+
 }
 
-
 .map-top {
+
     display: flex;
 
     align-items: center;
@@ -4714,10 +4801,11 @@ img {
     justify-content: space-between;
 
     margin-bottom: 20px;
+
 }
 
-
 .map-top span {
+
     color: #999;
 
     font-size: 10px;
@@ -4725,19 +4813,21 @@ img {
     font-weight: 800;
 
     letter-spacing: 2px;
+
 }
 
-
 .map-top h3 {
+
     margin: 5px 0 0;
 
     color: #222;
 
     font-size: 26px;
+
 }
 
-
 .directions-button {
+
     display: inline-flex;
 
     align-items: center;
@@ -4759,19 +4849,23 @@ img {
     font-weight: 700;
 
     transition:
+
         background 0.3s ease,
+
         transform 0.3s ease;
+
 }
 
-
 .directions-button:hover {
+
     background: #ed1c24;
 
     transform: translateY(-2px);
+
 }
 
-
 .contact-map {
+
     width: 100%;
 
     height: 420px;
@@ -4781,24 +4875,29 @@ img {
     border-radius: 18px;
 
     border: 1px solid #eee;
+
 }
 
-
 .contact-map iframe {
+
     width: 100%;
+
     height: 100%;
 
     display: block;
 
     border: 0;
+
 }
 
-
 /* =========================================================
+
    CTA
-========================================================= */
+
+\========================================================= */
 
 .contact-cta {
+
     position: relative;
 
     padding: 100px 20px;
@@ -4810,15 +4909,17 @@ img {
     color: rgb(8, 8, 8);
 
     text-align: center;
+
 }
 
-
 .contact-cta::before {
+
     content: "";
 
     position: absolute;
 
     width: 450px;
+
     height: 450px;
 
     border-radius: 50%;
@@ -4826,11 +4927,13 @@ img {
     border: 1px solid rgba(255,255,255,0.06);
 
     right: -180px;
+
     top: -230px;
+
 }
 
-
 .contact-cta > div {
+
     position: relative;
 
     z-index: 2;
@@ -4838,10 +4941,11 @@ img {
     max-width: 800px;
 
     margin: auto;
+
 }
 
-
 .contact-cta > div > span {
+
     color: #ed1c24;
 
     font-size: 11px;
@@ -4849,31 +4953,35 @@ img {
     font-weight: 800;
 
     letter-spacing: 3px;
+
 }
 
-
 .contact-cta h2 {
+
     margin: 15px 0;
 
     font-size: clamp(38px, 5vw, 58px);
 
     line-height: 1.15;
-}
 
+}
 
 .contact-cta h2 strong {
+
     color: #ed1c24;
+
 }
 
-
 .contact-cta p {
+
     margin-bottom: 30px;
 
     color: rgba(255,255,255,0.65);
+
 }
 
-
 .contact-cta-button {
+
     display: inline-flex;
 
     align-items: center;
@@ -4895,196 +5003,47 @@ img {
     font-size: 14px;
 
     transition:
+
         transform 0.3s ease,
+
         background 0.3s ease;
+
 }
 
-
 .contact-cta-button:hover {
+
     background: #c9151c;
 
     transform: translateY(-3px);
+
 }
 
-
 /* =========================================================
+
    TABLET
-========================================================= */
 
-@media (max-width: 900px) {
-
-    .contact-section {
-        padding: 75px 20px;
-    }
-
-    .office-container {
-        padding: 30px;
-    }
-
-    .contact-grid {
-        grid-template-columns: 1fr;
-    }
-
-}
-
+\========================================================= */
 
 /* =========================================================
+
    MOBILE
-========================================================= */
 
-@media (max-width: 600px) {
-
-    .parent-hero {
-        min-height: 350px;
-    }
-
-
-    .parent-hero h1 {
-        font-size: 48px;
-
-        letter-spacing: -2px;
-    }
-
-
-    .parent-hero p {
-        font-size: 14px;
-    }
-
-
-    .contact-section {
-        padding: 60px 15px;
-    }
-
-
-    .contact-heading h2 {
-        font-size: 35px;
-    }
-
-
-    .contact-heading p {
-        font-size: 14px;
-    }
-
-
-    .office-container {
-        padding: 20px;
-
-        border-radius: 18px;
-    }
-
-
-    .office-header {
-        align-items: flex-start;
-    }
-
-
-    .office-header h3 {
-        font-size: 27px;
-    }
-
-
-    .office-number {
-        width: 48px;
-        height: 48px;
-
-        font-size: 13px;
-    }
-
-
-    .contact-card {
-        flex-direction: column;
-
-        padding: 22px;
-    }
-
-
-    .contact-card-icon {
-        width: 46px;
-        height: 46px;
-    }
-
-
-    .hours-list div {
-        flex-direction: column;
-
-        gap: 3px;
-    }
-
-
-    .hours-list span {
-        text-align: left;
-    }
-
-
-    .map-top {
-        flex-direction: column;
-
-        align-items: flex-start;
-
-        gap: 15px;
-    }
-
-
-    .directions-button {
-        width: 100%;
-
-        justify-content: center;
-    }
-
-
-    .contact-map {
-        height: 300px;
-
-        border-radius: 12px;
-    }
-
-
-    .contact-cta {
-        padding: 75px 20px;
-    }
-
-
-    .contact-cta h2 {
-        font-size: 36px;
-    }
-
-
-    .contact-cta-button {
-        width: 100%;
-
-        justify-content: center;
-    }
-
-}
-
+\========================================================= */
 
 /* =========================================================
+
    SMALL PHONES
-========================================================= */
 
-@media (max-width: 380px) {
-
-    .contact-hero h1 {
-        font-size: 40px;
-    }
-
-
-    .contact-heading h2 {
-        font-size: 30px;
-    }
-
-
-    .office-container {
-        padding: 15px;
-    }
-
-}
+\========================================================= */
 
 /* =========================================================
+
    OFFICE INFORMATION LAYOUT
-========================================================= */
+
+\========================================================= */
 
 .contact-office-layout {
+
     display: grid;
 
     grid-template-columns: 1fr 1.1fr;
@@ -5092,19 +5051,21 @@ img {
     gap: 35px;
 
     align-items: stretch;
+
 }
 
-
 .office-information {
+
     display: grid;
 
     grid-template-columns: repeat(2, 1fr);
 
     gap: 15px;
+
 }
 
-
 .contact-detail {
+
     padding: 22px;
 
     background: #f8f8f9;
@@ -5114,31 +5075,35 @@ img {
     border-radius: 16px;
 
     transition: 0.3s ease;
+
 }
 
-
 .contact-detail:hover {
+
     transform: translateY(-4px);
 
     background: #fff;
 
     box-shadow: 0 12px 30px rgba(0,0,0,0.08);
-}
 
+}
 
 .contact-detail .contact-card-icon {
+
     margin-bottom: 15px;
+
 }
 
-
 .contact-detail h4 {
+
     margin: 0 0 10px;
 
     font-size: 18px;
+
 }
 
-
 .contact-detail p {
+
     margin: 7px 0;
 
     color: #666;
@@ -5146,22 +5111,25 @@ img {
     font-size: 13px;
 
     line-height: 1.6;
+
 }
 
-
 .contact-detail a {
+
     color: #555;
 
     text-decoration: none;
-}
 
+}
 
 .contact-detail a:hover {
+
     color: #ed1c24;
+
 }
 
-
 .office-map {
+
     min-height: 450px;
 
     overflow: hidden;
@@ -5169,10 +5137,11 @@ img {
     border-radius: 18px;
 
     border: 1px solid #eee;
+
 }
 
-
 .office-map iframe {
+
     width: 100%;
 
     height: 100%;
@@ -5182,37 +5151,43 @@ img {
     border: 0;
 
     display: block;
+
 }
 
-
 /* =========================================================
+
    DEPARTMENT SECTION
-========================================================= */
+
+\========================================================= */
 
 .department-section {
+
     padding: 100px 20px;
 
     background: #f5f6f8;
+
 }
 
-
 .department-wrapper {
+
     max-width: 1200px;
 
     margin: auto;
+
 }
 
-
 .department-heading {
+
     text-align: center;
 
     max-width: 700px;
 
     margin: 0 auto 55px;
+
 }
 
-
 .department-heading > span {
+
     color: #ed1c24;
 
     font-size: 11px;
@@ -5220,39 +5195,41 @@ img {
     font-weight: 800;
 
     letter-spacing: 3px;
+
 }
 
-
 .department-heading h2 {
+
     margin: 12px 0;
 
     font-size: clamp(35px, 5vw, 52px);
 
     color: #171717;
-}
 
+}
 
 .department-heading h2 strong {
+
     color: #ed1c24;
+
 }
 
-
 .department-heading p {
+
     color: #666;
 
     line-height: 1.7;
+
 }
 
-
 .department-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 20px;
 }
 
-
 .department-card {
+
     position: relative;
 
     padding: 30px;
@@ -5271,41 +5248,45 @@ img {
 
     transition: 0.3s ease;
 
-    /* ADD THIS */
-    flex: 0 1 calc(33.333% - 14px);
-    box-sizing: border-box;
+
 }
 
-
 .department-card::before {
+
     content: "";
 
     position: absolute;
 
     top: 0;
+
     left: 0;
 
     width: 100%;
+
     height: 4px;
 
     background: #ed1c24;
+
 }
 
-
 .department-card:hover {
+
     transform: translateY(-7px);
 
     box-shadow: 0 18px 40px rgba(0,0,0,0.09);
+
 }
 
-
 .department-icon {
+
     width: 48px;
+
     height: 48px;
 
     display: flex;
 
     align-items: center;
+
     justify-content: center;
 
     margin-bottom: 20px;
@@ -5317,10 +5298,11 @@ img {
     color: #fff;
 
     font-size: 18px;
+
 }
 
-
 .department-card > span {
+
     display: block;
 
     color: #ed1c24;
@@ -5330,19 +5312,21 @@ img {
     font-weight: 800;
 
     letter-spacing: 2px;
+
 }
 
-
 .department-card h3 {
+
     margin: 8px 0 20px;
 
     font-size: 21px;
 
     color: #222;
+
 }
 
-
 .department-info p {
+
     margin: 10px 0;
 
     color: #666;
@@ -5350,38 +5334,45 @@ img {
     font-size: 13px;
 
     line-height: 1.5;
-}
 
+}
 
 .department-info strong {
+
     color: #222;
+
 }
 
-
 /* =========================================================
+
    SOCIAL MEDIA SECTION
-========================================================= */
+
+\========================================================= */
 
 .social-section {
+
     padding: 100px 20px;
 
     background: #fff;
+
 }
 
-
 .social-wrapper {
+
     max-width: 1200px;
 
     margin: auto;
-}
 
+}
 
 .social-heading {
+
     margin-bottom: 45px;
+
 }
 
-
 .social-heading span {
+
     color: #ed1c24;
 
     font-size: 11px;
@@ -5389,31 +5380,35 @@ img {
     font-weight: 800;
 
     letter-spacing: 3px;
+
 }
 
-
 .social-heading h2 {
+
     margin: 12px 0 0;
 
     font-size: clamp(35px, 5vw, 50px);
-}
 
+}
 
 .social-heading strong {
+
     color: #ed1c24;
+
 }
 
-
 .social-grid {
+
     display: grid;
 
     grid-template-columns: repeat(2, 1fr);
 
     gap: 20px;
+
 }
 
-
 .social-contact-card {
+
     position: relative;
 
     display: flex;
@@ -5435,27 +5430,31 @@ img {
     color: #222;
 
     transition: 0.3s ease;
+
 }
 
-
 .social-contact-card:hover {
+
     transform: translateY(-5px);
 
     background: #fff;
 
     box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+
 }
 
-
 .social-contact-icon {
+
     flex-shrink: 0;
 
     width: 55px;
+
     height: 55px;
 
     display: flex;
 
     align-items: center;
+
     justify-content: center;
 
     border-radius: 14px;
@@ -5465,15 +5464,17 @@ img {
     color: #fff;
 
     font-size: 20px;
-}
 
+}
 
 .social-contact-card > div:nth-child(2) {
+
     flex: 1;
+
 }
 
-
 .social-contact-card span {
+
     font-size: 10px;
 
     font-weight: 800;
@@ -5481,144 +5482,373 @@ img {
     letter-spacing: 2px;
 
     color: #999;
+
 }
 
-
 .social-contact-card h3 {
+
     margin: 5px 0;
 
     font-size: 18px;
+
 }
 
-
 .social-contact-card p {
+
     margin: 0;
 
     color: #777;
 
     font-size: 13px;
+
 }
 
-
 .social-contact-card > i {
+
     color: #ed1c24;
 
     transition: transform 0.3s ease;
-}
 
+}
 
 .social-contact-card:hover > i {
+
     transform: translateX(5px);
+
 }
 
+/* =========================================================
+
+   TABLET
+
+\========================================================= */
 
 /* =========================================================
-   TABLET
-========================================================= */
 
+   MOBILE
+
+\========================================================= */
+
+/* Responsive: (max-width: 1000px) */
 @media (max-width: 1000px) {
+.contact-office-layout {
 
-    .contact-office-layout {
         grid-template-columns: 1fr;
+
     }
 
-
     .tacloban-layout {
+
         display: flex;
 
         flex-direction: column;
-    }
 
+    }
 
     .office-information {
-        grid-template-columns: repeat(2, 1fr);
-    }
 
+        grid-template-columns: repeat(2, 1fr);
+
+    }
 
     .office-map {
-        min-height: 350px;
-    }
 
+        min-height: 350px;
+
+    }
 
     .office-map iframe {
-        min-height: 350px;
-    }
 
+        min-height: 350px;
+
+    }
 
     .department-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+        grid-template-columns: repeat(2, minmax(0, 1fr));
 
+    }
 }
 
+/* Responsive: (max-width: 900px) */
+@media (max-width: 900px) {
+.contact-section {
 
-/* =========================================================
-   MOBILE
-========================================================= */
+        padding: 75px 20px;
 
-@media (max-width: 600px) {
-
-    .office-information {
-        grid-template-columns: 1fr;
     }
 
+    .office-container {
+
+        padding: 30px;
+
+    }
+
+    .contact-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+}
+
+/* Responsive: (max-width: 600px) */
+@media (max-width: 600px) {
+.parent-hero {
+
+        min-height: 350px;
+
+    }
+
+    .parent-hero h1 {
+
+        font-size: 48px;
+
+        letter-spacing: -2px;
+
+    }
+
+    .parent-hero p {
+
+        font-size: 14px;
+
+    }
+
+    .contact-section {
+
+        padding: 60px 15px;
+
+    }
+
+    .contact-heading h2 {
+
+        font-size: 35px;
+
+    }
+
+    .contact-heading p {
+
+        font-size: 14px;
+
+    }
+
+    .office-container {
+
+        padding: 20px;
+
+        border-radius: 18px;
+
+    }
+
+    .office-header {
+
+        align-items: flex-start;
+
+    }
+
+    .office-header h3 {
+
+        font-size: 27px;
+
+    }
+
+    .office-number {
+
+        width: 48px;
+
+        height: 48px;
+
+        font-size: 13px;
+
+    }
+
+    .contact-card {
+
+        flex-direction: column;
+
+        padding: 22px;
+
+    }
+
+    .contact-card-icon {
+
+        width: 46px;
+
+        height: 46px;
+
+    }
+
+    .hours-list div {
+
+        flex-direction: column;
+
+        gap: 3px;
+
+    }
+
+    .hours-list span {
+
+        text-align: left;
+
+    }
+
+    .map-top {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 15px;
+
+    }
+
+    .directions-button {
+
+        width: 100%;
+
+        justify-content: center;
+
+    }
+
+    .contact-map {
+
+        height: 300px;
+
+        border-radius: 12px;
+
+    }
+
+    .contact-cta {
+
+        padding: 75px 20px;
+
+    }
+
+    .contact-cta h2 {
+
+        font-size: 36px;
+
+    }
+
+    .contact-cta-button {
+
+        width: 100%;
+
+        justify-content: center;
+
+    }
+
+.office-information {
+
+        grid-template-columns: 1fr;
+
+    }
 
     .contact-office-layout {
-        gap: 20px;
-    }
 
+        gap: 20px;
+
+    }
 
     .office-map {
-        min-height: 300px;
-    }
 
+        min-height: 300px;
+
+    }
 
     .office-map iframe {
-        min-height: 300px;
-    }
 
+        min-height: 300px;
+
+    }
 
     .department-section {
-        padding: 70px 15px;
-    }
 
+        padding: 70px 15px;
+
+    }
 
     .department-grid {
         grid-template-columns: 1fr;
-    }
 
+    }
 
     .department-card {
-        min-height: auto;
-    }
 
+        min-height: auto;
+
+    }
 
     .social-section {
-        padding: 70px 15px;
-    }
 
+        padding: 70px 15px;
+
+    }
 
     .social-grid {
-        grid-template-columns: 1fr;
-    }
 
+        grid-template-columns: 1fr;
+
+    }
 
     .social-contact-card {
-        padding: 20px;
-    }
 
+        padding: 20px;
+
+    }
 
     .social-contact-icon {
-        width: 48px;
-        height: 48px;
-    }
 
+        width: 48px;
+
+        height: 48px;
+
+    }
 
     .social-contact-card h3 {
+
         font-size: 16px;
+
+    }
+}
+
+/* Responsive: (max-width: 396px) */
+@media (max-width: 396px) {
+    .parent-hero-content {
+        width: calc(100% - 30px);
     }
 
+    .parent-hero-label {
+        letter-spacing: 2px;
+    }
+
+    .contact-card,
+    .contact-detail,
+    .social-contact-card {
+        min-width: 0;
+    }
+
+    .social-contact-card {
+        gap: 12px;
+        padding: 18px 15px;
+    }
+.parent-hero h1 {
+
+        font-size: 40px;
+
+    }
+
+    .contact-heading h2 {
+
+        font-size: 30px;
+
+    }
+
+    .office-container {
+
+        padding: 15px;
+
+    }
 }
+
 
 /* =========================================================
    MODERN SERVICES PAGE
@@ -5974,25 +6204,19 @@ img {
 
 
 .service-card h3 {
-
+    text-align: left;
     margin: 0 0 18px;
-
     color: #222;
-
     font-size: 25px;
-
     line-height: 1.2;
 }
 
 
 .service-card p {
-
+    text-align: left;
     margin: 0;
-
     color: #6a6a6a;
-
     font-size: 14px;
-
     line-height: 1.75;
 }
 
@@ -6692,114 +6916,150 @@ img {
 }
 
 /* =========================================================
-   TAX & CONSULTING PAGE
-========================================================= */
-
-:root {
-    --tax-red: #ed1c24;
-    --tax-dark: #111111;
-    --tax-text: #292929;
-    --tax-gray: #6d6d6d;
-    --tax-light: #f6f7f8;
-    --tax-border: #e5e5e5;
-    --tax-white: #ffffff;
-}
-
-
-/* =========================================================
-   GLOBAL
-========================================================= */
+   SERVICES PAGES
+\========================================================= */
 
 .tax-hero,
+
 .tax-intro,
+
 .tax-overview,
+
 .service-section,
+
 .international-section,
+
 .tax-cta {
+
     width: 100%;
+
 }
 
 .section-container {
-    width: min(1200px, 90%);
-    margin: auto;
-}
 
+    width: min(1200px, 90%);
+
+    margin: auto;
+
+}
 
 /* =========================================================
    HERO
-========================================================= */
+\========================================================= */
 
 .tax-hero {
+
     min-height: 520px;
+
     position: relative;
+
     display: flex;
+
     align-items: center;
+
     overflow: hidden;
+
     background-image: url("./Assets/images/hero/contact.jpg");
+
     background-size: cover;
+
     background-position: center;
+
     background-repeat: no-repeat;
+
 }
 
 .tax-hero-overlay {
+
     position: absolute;
+
     inset: 0;
+
     background:
+
         linear-gradient(
+
             90deg,
+
             rgba(0, 0, 0, 0.78),
+
             rgba(0, 0, 0, 0.35),
+
             rgba(0, 0, 0, 0.05)
+
         );
+
 }
 
 .tax-hero-content {
+
     position: relative;
+
     z-index: 2;
+
     width: min(1200px, 90%);
+
     margin: auto;
+
 }
 
 .hero-label {
+
     display: block;
+
     margin-bottom: 20px;
+
     color: var(--tax-red);
+
     font-size: 13px;
+
     font-weight: 800;
+
     letter-spacing: 4px;
+
 }
 
 .tax-hero h1 {
+
     max-width: 850px;
+
     margin: 0;
+
     color: white;
+
     font-size: 60px;
+
     line-height: 0.98;
+
     font-weight: 700;
+
     letter-spacing: -3px;
-    
+
 }
 
 .tax-hero h1 span {
-    display: block;
-    margin-top: 10px;
-    color: white;
-    stroke: red;
-    stroke-width: 10px;
-}
 
+    display: block;
+
+    margin-top: 10px;
+
+    color: white;
+}
 
 /* =========================================================
    INTRO
-========================================================= */
+\========================================================= */
 
 .tax-intro {
-    padding: 100px 0;
+
+    padding-top: 25px;
 
     background: white;
+
 }
 
 .section-heading {
+
     display: grid;
 
     grid-template-columns: 80px 1fr;
@@ -6807,18 +7067,23 @@ img {
     gap: 40px;
 
     align-items: start;
+
 }
 
 .section-number {
+
     color: var(--tax-red);
 
     font-size: 14px;
+
     font-weight: 800;
 
     letter-spacing: 2px;
+
 }
 
 .small-label {
+
     display: block;
 
     margin-bottom: 14px;
@@ -6826,12 +7091,15 @@ img {
     color: var(--tax-red);
 
     font-size: 12px;
+
     font-weight: 800;
 
     letter-spacing: 3px;
+
 }
 
 .tax-intro h2 {
+
     max-width: 700px;
 
     margin: 0 0 18px;
@@ -6843,28 +7111,35 @@ img {
     line-height: 1.05;
 
     letter-spacing: -2px;
+
 }
 
 .tax-intro p {
+
     margin: 0;
 
     color: var(--tax-gray);
 
     font-size: 18px;
+
 }
 
-
 /* =========================================================
+
    OVERVIEW
-========================================================= */
+
+\========================================================= */
 
 .tax-overview {
-    padding: 100px 0;
+
+    padding-top: 25px;
 
     background: var(--tax-light);
+
 }
 
 .overview-grid {
+
     display: grid;
 
     grid-template-columns: 1fr 1fr;
@@ -6872,9 +7147,11 @@ img {
     gap: 80px;
 
     align-items: center;
+
 }
 
 .overview-content h2 {
+
     margin: 0 0 25px;
 
     color: var(--tax-dark);
@@ -6884,9 +7161,11 @@ img {
     line-height: 1.05;
 
     letter-spacing: -2px;
+
 }
 
 .overview-content p {
+
     margin: 0 0 20px;
 
     color: #555;
@@ -6894,13 +7173,17 @@ img {
     font-size: 16px;
 
     line-height: 1.8;
+
 }
 
 .overview-content strong {
+
     color: var(--tax-dark);
+
 }
 
 .overview-image {
+
     position: relative;
 
     overflow: hidden;
@@ -6908,9 +7191,11 @@ img {
     border-radius: 20px;
 
     box-shadow: 0 25px 60px rgba(0, 0, 0, 0.12);
+
 }
 
 .overview-image img {
+
     display: block;
 
     width: 100%;
@@ -6920,20 +7205,27 @@ img {
     object-fit: cover;
 
     transition: transform 0.5s ease;
+
 }
 
 .overview-image:hover img {
+
     transform: scale(1.04);
+
 }
 
 .image-badge {
+
     position: absolute;
 
     left: 25px;
+
     bottom: 25px;
 
     display: flex;
+
     align-items: center;
+
     gap: 12px;
 
     padding: 14px 20px;
@@ -6947,24 +7239,31 @@ img {
     font-weight: 700;
 
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+
 }
 
 .image-badge i {
+
     color: var(--tax-red);
+
 }
 
-
 /* =========================================================
-   DOMESTIC SERVICES
-========================================================= */
+
+   Services
+
+\========================================================= */
 
 .service-section {
+
     padding: 120px 0;
 
     background: white;
+
 }
 
 .service-section-header {
+
     display: grid;
 
     grid-template-columns: 80px 1fr;
@@ -6972,10 +7271,13 @@ img {
     gap: 40px;
 
     margin-bottom: 60px;
+
 }
 
 .service-section-header h2,
+
 .international-header h2 {
+
     margin: 0;
 
     color: var(--tax-dark);
@@ -6985,17 +7287,21 @@ img {
     line-height: 1;
 
     letter-spacing: -2px;
+
 }
 
 .service-grid {
+
     display: grid;
 
     grid-template-columns: repeat(2, 1fr);
 
     gap: 25px;
+
 }
 
 .service-card {
+
     position: relative;
 
     padding: 40px;
@@ -7009,20 +7315,27 @@ img {
     overflow: hidden;
 
     transition:
+
         transform 0.3s ease,
+
         box-shadow 0.3s ease,
+
         border-color 0.3s ease;
+
 }
 
 .service-card::before {
+
     content: "";
 
     position: absolute;
 
     left: 0;
+
     top: 0;
 
     width: 100%;
+
     height: 4px;
 
     background: var(--tax-red);
@@ -7032,26 +7345,35 @@ img {
     transform-origin: left;
 
     transition: transform 0.3s ease;
+
 }
 
 .service-card:hover {
+
     transform: translateY(-8px);
 
     border-color: transparent;
 
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+
 }
 
 .service-card:hover::before {
+
     transform: scaleX(1);
+
 }
 
 .service-icon {
+
     width: 55px;
+
     height: 55px;
 
     display: flex;
+
     align-items: center;
+
     justify-content: center;
 
     margin-bottom: 30px;
@@ -7063,54 +7385,59 @@ img {
     color: var(--tax-red);
 
     font-size: 21px;
+
 }
 
 .service-number {
+
     position: absolute;
 
     top: 35px;
+
     right: 35px;
 
     color: #ddd;
 
     font-size: 13px;
+
     font-weight: 800;
 
     letter-spacing: 2px;
+
 }
 
 .service-card h3 {
+    text-align: left;
     margin: 0 0 18px;
-
     color: var(--tax-dark);
-
     font-size: 24px;
-
     line-height: 1.2;
 }
 
 .service-card p {
+    text-align: left;
     margin: 0;
-
     color: #666;
-
     font-size: 15px;
-
     line-height: 1.8;
 }
 
-
 /* =========================================================
+
    INTERNATIONAL
-========================================================= */
+
+\========================================================= */
 
 .international-section {
+
     padding: 120px 0;
 
     background: #f5f6f7;
+
 }
 
 .international-header {
+
     display: grid;
 
     grid-template-columns: 80px 1fr;
@@ -7118,17 +7445,21 @@ img {
     gap: 40px;
 
     margin-bottom: 60px;
+
 }
 
 .international-grid {
+
     display: grid;
 
     grid-template-columns: repeat(2, 1fr);
 
     gap: 25px;
+
 }
 
 .international-card {
+
     padding: 40px;
 
     border-radius: 18px;
@@ -7136,39 +7467,53 @@ img {
     background: white;
 
     transition:
+
         transform 0.3s ease,
+
         box-shadow 0.3s ease;
+
 }
 
 .international-card:hover {
+
     transform: translateY(-8px);
 
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.09);
+
 }
 
 .international-top {
+
     display: flex;
 
     align-items: center;
+
     justify-content: space-between;
 
     margin-bottom: 25px;
+
 }
 
 .international-top .service-icon {
+
     margin: 0;
+
 }
 
 .international-top > span {
+
     color: #d8d8d8;
 
     font-size: 13px;
+
     font-weight: 800;
 
     letter-spacing: 2px;
+
 }
 
 .international-card h3 {
+
     margin: 0 0 18px;
 
     color: var(--tax-dark);
@@ -7176,9 +7521,11 @@ img {
     font-size: 24px;
 
     line-height: 1.2;
+
 }
 
 .international-card p {
+
     margin: 0;
 
     color: #666;
@@ -7186,31 +7533,39 @@ img {
     font-size: 15px;
 
     line-height: 1.8;
+
 }
 
-
 /* =========================================================
+
    CTA
-========================================================= */
+
+\========================================================= */
 
 .tax-cta {
+
     position: relative;
 
     padding: 110px 20px;
 
     background: var(--red-dark);
+
     color: var(--white);
+
     text-align: center;
 
     overflow: hidden;
+
 }
 
 .tax-cta::before {
+
     content: "";
 
     position: absolute;
 
     width: 500px;
+
     height: 500px;
 
     border-radius: 50%;
@@ -7218,15 +7573,19 @@ img {
     border: 1px solid rgba(255,255,255,0.08);
 
     right: -200px;
+
     top: -250px;
+
 }
 
 .tax-cta::after {
+
     content: "";
 
     position: absolute;
 
     width: 350px;
+
     height: 350px;
 
     border-radius: 50%;
@@ -7234,16 +7593,21 @@ img {
     background: rgba(237, 28, 36, 0.08);
 
     left: -180px;
+
     bottom: -230px;
+
 }
 
 .cta-content {
+
     position: relative;
 
     z-index: 2;
+
 }
 
 .tax-cta h2 {
+
     margin: 0 0 30px;
 
     color: white;
@@ -7253,12 +7617,15 @@ img {
     line-height: 1;
 
     letter-spacing: -2px;
+
 }
 
 .cta-button {
+
     display: inline-flex;
 
     align-items: center;
+
     gap: 12px;
 
     padding: 16px 28px;
@@ -7270,85 +7637,236 @@ img {
     color: white;
 
     font-size: 14px;
+
     font-weight: 700;
 
     text-decoration: none;
 
     transition:
+
         transform 0.3s ease,
+
         background 0.3s ease;
+
 }
 
 .cta-button:hover {
+
     transform: translateY(-3px);
 
     background: #c9141b;
-}
 
+}
 
 /* =========================================================
    RESPONSIVE
 ========================================================= */
 
+@media (max-width: 1100px) {
+    .overview-grid {
+        gap: 45px;
+    }
+
+    .service-card,
+    .international-card {
+        padding: 32px;
+    }
+}
+
 @media (max-width: 900px) {
+    .tax-hero {
+        min-height: 480px;
+    }
 
     .overview-grid {
         grid-template-columns: 1fr;
-
-        gap: 50px;
+        gap: 40px;
     }
 
     .overview-image img {
         height: 400px;
     }
 
-    .service-grid,
-    .international-grid {
-        grid-template-columns: 1fr;
-    }
-
     .section-heading,
     .service-section-header,
     .international-header {
         grid-template-columns: 1fr;
-
         gap: 15px;
     }
 
+    .service-grid,
+    .international-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .tax-intro,
+    .tax-overview {
+        padding: 25px;
+    }
+
+    .service-section,
+    .international-section {
+        padding: 95px 0;
+    }
 }
 
-
-@media (max-width: 600px) {
+@media (max-width: 700px) {
+    .section-container {
+        width: min(100% - 36px, 1200px);
+    }
 
     .tax-hero {
-        min-height: 450px;
+        min-height: 430px;
+        background-position: center;
     }
 
     .tax-hero h1 {
-        font-size: 48px;
-
+        font-size: clamp(38px, 8vw, 48px);
+        line-height: 1.05;
         letter-spacing: -2px;
+    }
+
+    .hero-label {
+        margin-bottom: 15px;
+        font-size: 11px;
+        letter-spacing: 3px;
     }
 
     .tax-intro,
     .tax-overview,
     .service-section,
     .international-section {
-        padding: 80px 0;
+        padding: 25px;
+    }
+
+    .tax-intro h2,
+    .overview-content h2,
+    .service-section-header h2,
+    .international-header h2 {
+        font-size: clamp(32px, 7vw, 44px);
+        letter-spacing: -1px;
+    }
+
+    .tax-intro p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .overview-content p {
+        font-size: 15px;
+    }
+
+    .overview-image img {
+        height: 340px;
+    }
+
+    .image-badge {
+        left: 15px;
+        bottom: 15px;
+        gap: 8px;
+        padding: 11px 15px;
+        font-size: 13px;
+    }
+
+    .service-section-header,
+    .international-header {
+        margin-bottom: 35px;
+    }
+
+    .service-grid,
+    .international-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
     }
 
     .service-card,
     .international-card {
-        padding: 30px;
+        padding: 28px;
+    }
+
+    .service-card h3,
+    .international-card h3 {
+        font-size: 21px;
+    }
+
+    .service-number {
+        top: 25px;
+        right: 25px;
+    }
+
+    .tax-cta {
+        padding: 80px 18px;
+    }
+
+    .tax-cta h2 {
+        font-size: clamp(34px, 8vw, 46px);
+        line-height: 1.08;
+        letter-spacing: -1px;
+    }
+
+    .cta-button {
+        max-width: 100%;
+        padding: 14px 22px;
+    }
+}
+
+@media (max-width: 396px) {
+    .section-container {
+        width: calc(100% - 30px);
+    }
+
+    .tax-hero {
+        min-height: 390px;
+    }
+
+    .tax-hero h1 {
+        font-size: 36px;
+        letter-spacing: -1.5px;
+    }
+
+    .hero-label,
+    .small-label {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+    .tax-intro,
+    .tax-overview,
+    .service-section,
+    .international-section {
+        padding: 15px;
+    }
+
+    .service-card,
+    .international-card {
+        padding: 23px;
+        border-radius: 15px;
     }
 
     .overview-image img {
-        height: 320px;
+        height: 280px;
     }
 
+    .tax-cta {
+        padding: 65px 15px;
+    }
 }
 
-/* =====================================================
+.tax-hero,
+.tax-intro,
+.tax-overview,
+.service-section,
+.international-section,
+.tax-cta,
+.section-container,
+.tax-hero-content,
+.overview-grid,
+.service-grid,
+.international-grid {
+    min-width: 0;
+}
+
+        /* =====================================================
            RESET
         ===================================================== */
 

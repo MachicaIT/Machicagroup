@@ -123,7 +123,7 @@ function ComprehensiveTaxSolutions() {
 
 
             {/* =====================================================
-                DOMESTIC TAX SOLUTIONS
+                Services
             ====================================================== */}
 
             <section className="service-section">
